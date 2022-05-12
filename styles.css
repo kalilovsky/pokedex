@@ -1,0 +1,22 @@
+#root{
+    display: flex;
+    flex-wrap: wrap;
+}
+#root div{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+#root div:hover{
+    background: gray;
+}
+.searchBar{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row !important;
+}
